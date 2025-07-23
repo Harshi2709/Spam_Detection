@@ -28,16 +28,7 @@ A desktop application for detecting, managing, and analyzing spam emails using J
 
 ---
 
-## 💾 Database Structure
 
-The database name is `spam_detection` and includes the following tables:
-
-- `inbox (I_ID, From_Mail, To_Mail, Day)`
-- `message (ID, Content, Subject)`
-- `spam (I_ID, IS_SPAM, Type)`
-- `user_profile (Email, Name, DOB, Phone)`
-- `login (Email, Password)`
-- `blocked (Email, Name)`
 
 You can import the schema using the provided `spam_detection.sql` file.
 
